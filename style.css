@@ -1,0 +1,151 @@
+/* { } */
+
+body {
+    background-color: rgba(224, 223, 223, 0.884);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #006A7E;
+    font-weight: bold;
+}
+
+/*header*/
+
+#logo-header {
+    background-color: #27333F;
+}
+
+#logo-header img {
+    display: block;
+    width: 5%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#navbar {
+    background-color: #384957;
+    padding-left: 25px;
+}
+
+#navbar a {
+    display: inline-block;
+    color: rgb(236, 236, 236);
+    font-weight: 400;
+    padding: 5px;
+    font-size: small;
+}
+
+/*banner body*/
+
+#banner-body {
+    width: 95%;
+    margin: auto;
+}
+
+#disclaimer {
+    background-color: #FE6A21;
+    margin: 25px 0px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+#flex-container {
+    display: flex;
+    color: white;
+}
+
+#holiday-img {
+    width: 100%;
+}
+
+#gift-txt-one {
+    position: absolute;
+    transform: translateY(20px);
+    font-size: large;
+    font-weight: 700;
+}
+
+#gift-txt-two {
+    position: absolute;
+    transform: translateY(60px);
+}
+
+/*grid*/
+
+.description {
+    padding: 7px;
+}
+
+#description-grid {
+    display: block;
+    margin-left: 15px;
+}
+
+.description span {
+    margin: 5px;
+}
+
+.description a {
+    font-size: smaller;
+}
+
+#flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    object-fit: cover;
+}
+
+#banner-grid {
+    background-color: white;
+    margin: 15px 0px;
+}
+
+.square {
+    display: inline-block;
+    width: 22%;
+    height: 350px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(199, 199, 199);
+    object-fit: cover;
+}
+
+/*banner grossi*/
+
+.banner {
+    margin: 20px;
+    text-align: center;
+}
+
+.banner-img {
+    max-width: 100%;
+}
+
+/*footer*/
+
+#backtotop {
+    background-color: #384957;
+    text-align: center;
+    padding: 10px;
+}
+
+#backtotop a {
+    color: white;
+    text-decoration: underline;
+}
+
+#logo-footer {
+    background-color: #27333F;
+}
+
+#logo-footer img {
+    display: block;
+    width: 10%;
+    margin: auto;
+    padding: 35px;
+}
